@@ -1,3 +1,5 @@
+var tLink = require('telegram.link')();
+
 function OnChatSelected(chatId) {
     var id = "#chatDiv" + chatId;
     $(id).toggleClass("selected");
