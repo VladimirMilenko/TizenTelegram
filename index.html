@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>НАЧАЛО РАБОТЫ С BRACKETS</title>
+    <meta name="description" content="Интерактивное руководство по началу работы в Brackets.">
+    <link rel="stylesheet" href="flex.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <script src="js/project.js" type="text/javascript" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-icon-left textcolor-white">
+            <i class="fa fa-bars fa-3x"></i>
+        </div>
+        <div class="navbar-info-container">
+            <p class="navbar-page-name textcolor-white">Telegram</p>
+        </div>
+        <div class="navbar-icon-right textcolor-white">
+            <i class="fa fa-search fa-3x"></i>
+        </div>
+    </div>
+    <div class="chats-container">
+        <div class="chat-container noselect" id="chatDiv1" onClick="location.href = 'chat.html'">
+            <div class="chat-icon">
+                <div class="circle circle-lightblue textcolor-white">VM</div>
+            </div>
+            <div class="chat-info-container">
+                <div class="chat-name" >
+                    Vladimir Milenko
+                </div>
+                <div class="chat-lastmessage" id="chatNameDiv1">
+                    Тестовое сообщение
+                </div>
+            </div>
+            <div class="chat-info-additional">
+                <div class="chat-last-message-time">
+                    14:30
+                </div>
+                <div class="chat-new-messages-badge">
+                    <span class="badge green">1</span>
+                </div>
+            </div>
+        </div>
+        <div class="chat-container" id="chatDiv2" onClick="OnChatSelected(2)">
+            <div class="chat-icon">
+                <div class="circle circle-lightpurple textcolor-white">EM</div>
+            </div>
+            <div class="chat-info-container">
+                <div class="chat-name" >
+                    Elena Musatova
+                </div>
+                <div class="chat-lastmessage" id="chatNameDiv1">
+                    Проверка 2
+                </div>
+            </div>
+            <div class="chat-info-additional">
+                <div class="chat-last-message-time">
+                    11:50
+                </div>
+                <div class="chat-new-messages-badge">
+                    <span class="badge grey">1</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="tab" id="contacts">
+            <a href="#contacts"><i class="fa fa-users fa-3x "></i></a>
+        </div>
+        <div class="tab" id="contacts">
+            <a href="#contacts"><i class="fa fa-users fa-3x"></i></a>
+        </div>
+        <div class="tab" id="contacts">
+            <a href="#contacts"><i class="fa fa-users fa-3x"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>
